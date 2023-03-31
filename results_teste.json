@@ -1,0 +1,65 @@
+{
+	"id": "c7dd916d-d42a-4e90-baca-bd0c49fc2c3b",
+	"name": "Valida APP",
+	"timestamp": "2023-03-31T20:17:30.319Z",
+	"collection_id": "23578326-f3f61588-3544-49cf-81c9-90b7a458b006",
+	"folder_id": 0,
+	"environment_id": "0",
+	"totalPass": 3,
+	"delay": 0,
+	"persist": true,
+	"status": "finished",
+	"startedAt": "2023-03-31T20:17:27.982Z",
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "c047305b-25ba-435a-8fa0-62806c883a64",
+			"name": "List Users",
+			"url": "https://reqres.in/api/users?page=2",
+			"time": 530,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"O campo page tem o valor esperado de 2": true,
+				"O id 12 está na página 2": true,
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"O campo page tem o valor esperado de 2": {
+					"pass": 1,
+					"fail": 0
+				},
+				"O id 12 está na página 2": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				530
+			],
+			"allTests": [
+				{
+					"O campo page tem o valor esperado de 2": true,
+					"O id 12 está na página 2": true,
+					"Status code is 200": true
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 530,
+	"collection": {
+		"requests": [
+			{
+				"id": "c047305b-25ba-435a-8fa0-62806c883a64",
+				"method": "GET"
+			}
+		]
+	}
+}
